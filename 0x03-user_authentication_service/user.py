@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """User module
 """
-from sqlalchemy.orm import DeclarativeBase
+from sqlalchemy.ext.declarative import DeclarativeBase
 from sqlalchemy import Column, Integer, String
 
 Base = DeclarativeBase()
